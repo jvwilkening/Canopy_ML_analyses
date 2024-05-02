@@ -20,7 +20,7 @@ def import_all_data(downscaled_data_folder, ML_data_folder, env_input_data_folde
         image_code = image_files[image_num]
         if image_code == "Figures": #If have figure folder in there skip it
             continue
-        results_folder = downscaled_data_folder + "/" + image_code + "/out_value_list_kernel_3_moving_1"
+        results_folder = downscaled_data_folder + "/" + image_code + "/smaller_csvs"
         env_data_folder = env_input_data_folder + "/" + image_code + "/env_variables"
         gis_data_folder = env_input_data_folder + "/" + image_code
 

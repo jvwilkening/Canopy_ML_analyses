@@ -11,6 +11,9 @@ import os
 '''
 Runs all functions to create RF model and then runs future canopy scenario and exports rasters. Then runs SHAP analysis
 on RF model and plots corresponding figures of SHAP results.
+
+Date: May 2, 2024
+Author: Jeannie Wilkening
 '''
 ##Define directories
 #where to output data
