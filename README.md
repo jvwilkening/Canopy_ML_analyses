@@ -2,7 +2,7 @@
 
 Updated: May 2024 
 
-This repository contains the code used for the machine learning analyses in the manuscript: ADD REF HERE
+This repository contains the code used for the machine learning analyses in the manuscript: Wilkening and Feng. Canopy temperature reveals disparities in urban canopy benefits. In Review.
 
 This code is run in Python 3.10, and the necessary accompanying packages and versions are listed in the requirements.txt file.
 
