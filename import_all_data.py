@@ -69,8 +69,8 @@ def import_all_data(downscaled_data_folder, ML_data_folder, env_input_data_folde
     combined_image_data_df.to_pickle('%s/full_canopy_temp_df.pkl' % ML_data_folder)
     combined_image_data_df.to_csv('%s/csv_Files/full_canopy_temp_df.csv' % ML_data_folder)
 
-    # Filter to only cells with non-zero canopy cover
-    canopy_pixels_df = combined_image_data_df[combined_image_data_df['tree_frac'] > 0.0000]
+    # Filter to only cells with greater than 20 percent canopy cover
+    canopy_pixels_df = combined_image_data_df[combined_image_data_df['tree_frac'] > 0.2]
 
     canopy_pixels_df.to_pickle('%s/canopy_pixels_canopy_temp_df.pkl' % ML_data_folder)
     canopy_pixels_df.to_csv('%s/csv_Files/canopy_pixels_canopy_temp_df.csv' % ML_data_folder)
