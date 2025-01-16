@@ -2,7 +2,7 @@
 
 Updated: May 2024 
 
-This repository contains the code used for the machine learning analyses in the manuscript: Wilkening and Feng(2025) "Canopy temperature reveals disparities in urban canopy benefits" published in AGU Advances.
+This repository contains the code used for the machine learning analyses in the manuscript: Wilkening and Feng (2025) "Canopy temperature reveals disparities in urban canopy benefits" published in AGU Advances.
 
 This code is run in Python 3.10, and the necessary accompanying packages and versions are listed in the requirements.txt file.
 
